@@ -1,25 +1,257 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Dashboard</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <div id="sidebar"></div>
-        <div id="header">
-            <div class="nav-1"></div>
-            <div class="nav-2"></div>
+      <div id="sidebar">
+        <div class="logo">
+          <img src="./assets/grid-1x2-fill.svg" />
+          <h1>Dashboard</h1>
         </div>
-        <div id="main">
-            <div class="projects"></div>
+
+        <ul class="items">
+          <li class="item">
+            <img src="./assets/house-door-fill.svg" />
+            <p>Home</p>
+          </li>
+
+          <li class="item">
+            <img src="./assets/person-square.svg" />
+            <p>Profile</p>
+          </li>
+
+          <li class="item">
+            <img src="./assets/chat-left-fill.svg" />
+            <p>Messages</p>
+          </li>
+
+          <li class="item">
+            <img src="./assets/clock-history.svg" />
+            <p>History</p>
+          </li>
+
+          <li class="item">
+            <img src="./assets/list-task.svg" />
+            <p>Tasks</p>
+          </li>
+
+          <li class="item">
+            <img src="./assets/people-fill.svg" />
+            <p>Communities</p>
+          </li>
+        </ul>
+
+        <ul class="items">
+          <li class="item">
+            <img src="./assets/gear-fill.svg" />
+            <p>Settings</p>
+          </li>
+
+          <li class="item">
+            <img src="./assets/question-square-fill.svg" />
+            <p>Support</p>
+          </li>
+
+          <li class="item">
+            <img src="./assets/shield-fill-check.svg" />
+            <p>Privacy</p>
+          </li>
+        </ul>
+      </div>
+      <div id="header">
+        <div class="nav-1">
+          <div id="search-bar">
+            <img src="./assets/search.svg" />
+            <input type="search" placeholder="Search" />
+          </div>
+
+          <div id="notification">
+            <abbr title="Notifications">
+              <img src="./assets/bell-fill.svg" />
+            </abbr>
+          </div>
+
+          <div id="profile">
+            <div class="image"><p>W</p></div>
+            <span>Whisperer</span>
+          </div>
+        </div>
+        <div class="nav-2">
+          <div id="profile">
+            <div class="image"><p>W</p></div>
             <div class="meta">
-                <div class="announcements"></div>
-                <div class="trending"></div>
+              <p>Hi there,</p>
+              <p class="username">Whisperer (@whisperer)</p>
             </div>
+          </div>
+
+          <ul id="actions">
+            <li><button>New</button></li>
+            <li><button>Upload</button></li>
+            <li><button>Share</button></li>
+          </ul>
         </div>
+      </div>
+      <div id="main">
+        <div class="projects">
+          <h2>Your Projects</h2>
+          <div id="projects">
+            <div class="project">
+              <h3>Super Cool Project</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Laborum repellendus accusantium excepturi! Atque, in omnis?
+              </p>
+              <div class="actions">
+                <button><img src="./assets/heart-fill.svg" /></button>
+                <button><img src="./assets/share-fill.svg" /></button>
+              </div>
+            </div>
+
+            <div class="project">
+              <h3>Less Cool Project</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Laborum repellendus accusantium excepturi! Atque, in omnis?
+              </p>
+              <div class="actions">
+                <button><img src="./assets/heart-fill.svg" /></button>
+                <button><img src="./assets/share-fill.svg" /></button>
+              </div>
+            </div>
+
+            <div class="project">
+              <h3>Impossible App</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Laborum repellendus accusantium excepturi! Atque, in omnis?
+              </p>
+              <div class="actions">
+                <button><img src="./assets/heart-fill.svg" /></button>
+                <button><img src="./assets/share-fill.svg" /></button>
+              </div>
+            </div>
+
+            <div class="project">
+              <h3>Easy App</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Laborum repellendus accusantium excepturi! Atque, in omnis?
+              </p>
+              <div class="actions">
+                <button><img src="./assets/heart-fill.svg" /></button>
+                <button><img src="./assets/share-fill.svg" /></button>
+              </div>
+            </div>
+
+            <div class="project">
+              <h3>Ad Blocker</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Laborum repellendus accusantium excepturi! Atque, in omnis?
+              </p>
+              <div class="actions">
+                <button><img src="./assets/heart-fill.svg" /></button>
+                <button><img src="./assets/share-fill.svg" /></button>
+              </div>
+            </div>
+
+            <div class="project">
+              <h3>Money Maker</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Laborum repellendus accusantium excepturi! Atque, in omnis?
+              </p>
+              <div class="actions">
+                <button><img src="./assets/heart-fill.svg" /></button>
+                <button><img src="./assets/share-fill.svg" /></button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="announcements">
+          <h2>Announcements</h2>
+          <div id="announcements">
+            <div class="announcement">
+              <h4>Site Maintenance</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
+                consequatur laudantium cupiditate eaque explicabo quisquam!
+              </p>
+            </div>
+
+            <hr />
+
+            <div class="announcement">
+              <h4>Community Share Day</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
+                consequatur laudantium cupiditate eaque explicabo quisquam!
+              </p>
+            </div>
+
+            <hr />
+
+            <div class="announcement">
+              <h4>Updated Privacy Policy</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
+                consequatur laudantium cupiditate eaque explicabo quisquam!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="trending">
+          <h2>Trending</h2>
+          <div id="trending">
+            <div class="trend">
+              <div class="image">M</div>
+              <div class="meta">
+                <p class="username">@megan</p>
+                <p>World Piece Builder</p>
+              </div>
+            </div>
+
+            <div class="trend">
+              <div class="image">A</div>
+              <div class="meta">
+                <p class="username">@alex</p>
+                <p>Super Cool Project</p>
+              </div>
+            </div>
+
+            <div class="trend">
+              <div class="image">K</div>
+              <div class="meta">
+                <p class="username">@kendal</p>
+                <p>Life Changing App</p>
+              </div>
+            </div>
+
+            <div class="trend">
+              <div class="image">D</div>
+              <div class="meta">
+                <p class="username">@daniel</p>
+                <p>Inspiring</p>
+              </div>
+            </div>
+
+            <div class="trend">
+              <div class="image">R</div>
+              <div class="meta">
+                <p class="username">@rachel</p>
+                <p>My first project</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
